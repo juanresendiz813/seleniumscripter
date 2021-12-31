@@ -9,8 +9,8 @@ RUN wget https://chromedriver.storage.googleapis.com/94.0.4606.61/chromedriver_l
 
 RUN unzip chromedriver_linux64.zip 
 
-RUN sudo mv chromedriver /usr/bin/chromedriver 
+RUN sudo mv chromedriver /workspace/seleniumscripter:/workspace/seleniumscripter
 
-RUN sudo chown root:root /usr/bin/chromedriver 
+RUN sudo chown root:root /workspace/seleniumscripter:/workspace/seleniumscripter
 
-RUN sudo chmod +x /usr/bin/chromedriver 
+RUN sudo chmod +x /workspace/seleniumscripter:/workspace/seleniumscripter
